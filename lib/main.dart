@@ -63,8 +63,13 @@ class _VoiceToTextState extends State<VoiceToText> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Voice to Text'),
+        title: Center( child:  Text('Voice to Text by Gurshish', style: TextStyle(color: Colors.white),),),
+        backgroundColor: Colors.teal,
+        elevation: 10.0,
+
+        
       ),
+      
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
